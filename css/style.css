@@ -35,7 +35,7 @@ h2 {
 }
 .btn {
   padding: 8px 20px;
-  background-color: blue;
+  background-color: #2862ff;
   color: white;
 }
 /* utility */
@@ -44,10 +44,14 @@ h2 {
 header {
   /* height: 80px; */
   padding: 20px 20px;
-  border-bottom: 2px solid black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff;
 }
 nav {
-  width: 50%;
+  /* width: 50%; */
 }
 .nav-right {
   justify-content: flex-end;
@@ -75,32 +79,48 @@ header > .nav-right > ul > li > a {
 /* /header */
 /* jumbotron */
 .jumbotron {
-  height: 600px;
-  background-color: blanchedalmond;
+  padding-top: 170px;
+  /* height: 900px; */
+  background-color: #b4d0e7;
 }
-.jumbotron > h1 {
-  font-size: 78px;
+.jumbotron > .jumbo-container > h1 {
+  font-size: 68px;
   font-weight: 900;
   margin-top: 60px;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
   line-height: 97px;
-}
-.jumbo-content {
-  height: 500px;
-  border: 1px solid black;
 }
   .jumbo-content.left {
     width: 40%;
     /* background-color: azure; */
   }
+  .jumbo-content.left > div {
+    flex-direction: column;
+  }
+  .jumbo-content.left > div > p {
+    font-size: 17px;
+    line-height: 25px;
+    margin-bottom: 30px;
+  }
+  .jumbo-content.left > div > a {
+    margin: 20px 0;
+    text-decoration: none;
+  }
+  .jumbo-content.left > div > .arrow {
+    font-size: 40px;
+    margin-top: 40px;
+  }
   .jumbo-content.right {
     width: 60%;
-    background-color: aqua;
+    /* background-color: aqua; */
+  }
+  .jumbo-content.right > img {
+    width: 100%;
   }
 /* /jumbotron */
 /* plan-section */
   .plan-section > h2 {
-    margin-top: 200px;
+    padding-top: 200px;
     margin-bottom: 40px;
   }
   .radio-input {
