@@ -169,7 +169,7 @@ header > .nav-right > ul > li > a {
     margin-bottom: 20px;
   }
 /* /dropbox-business-section */
-/* client */
+/* clienti */
 .client {
   height: 460px;
   width: 100%;
@@ -194,18 +194,17 @@ header > .nav-right > ul > li > a {
   /* height: 500px; */
   width: 100%;
   background-color: beige;
-  justify-content: space-around;
+  justify-content: center;
 }
 .trial-text {
-  width: 30%;
   background-color: bisque;
 }
 .trial-btn {
-  width: 30%;
   background-color: azure;
   justify-content: center;
 }
 .trial-text, .trial-btn {
+  width: 40%;
   padding: 100px 0;
 
 }
@@ -214,4 +213,28 @@ header > .nav-right > ul > li > a {
   height: 50px;
   border: 1px solid black;
 }
-/* /client */
+/* /clienti */
+/* questions */
+.questions h3 {
+  font-size: 34px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.question.topbar{
+  border-top: 1px solid black;
+}
+.question {
+  padding: 30px 0;
+  border-bottom: 1px solid black;
+}
+.questions > div {
+  margin-bottom: 100px;
+}
+/* /questions */
+/* footer */
+footer {
+  height: 500px;
+  width: 100%;
+  background-color: black;
+}
+/* footer */
