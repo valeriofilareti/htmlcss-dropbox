@@ -160,10 +160,34 @@ header > .nav-right > ul > li > a {
     border: 1px solid black;
     margin-bottom: 20px;
   }
-  .dropbox-business > div:last-child {
+  .dropbox-business .business {
     width: 55%;
+    margin-bottom: 50px;
   }
   .dropbox-business > div > h2 {
     margin-top: 70px;
+    margin-bottom: 20px;
   }
-/* dropbox-business-section */
+/* /dropbox-business-section */
+/* client */
+.client {
+  height: 460px;
+  width: 100%;
+  background-color: aliceblue;
+}
+.square-block {
+  /* width: 20%; */
+  background-color: antiquewhite;
+  flex-wrap: wrap;
+}
+.client-text {
+  /* width: 60%; */
+  margin: 0 auto;
+  overflow: auto;
+}
+.square {
+  border: 1px solid black;
+  width: 230px;
+  height: 230px;
+}
+/* /client */
