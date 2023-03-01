@@ -50,6 +50,7 @@ header {
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 999;
   width: 100%;
   background-color: #ffffff;
 }
@@ -67,9 +68,6 @@ nav > ul > li,
 nav > ul > li > a {
   height: 100%;
 }
-
-
-
 nav > ul > li {
   list-style: none;
 }
@@ -94,7 +92,7 @@ nav > ul > li > a:hover {
   background-color: #b4d0e7;
 }
 .jumbotron > .jumbo-container > h1 {
-  font-size: 68px;
+  font-size: 90px;
   font-weight: 900;
   margin-bottom: 60px;
   line-height: 97px;
@@ -117,17 +115,20 @@ nav > ul > li > a:hover {
 .jumbo-content.left > div > .arrow {
   font-size: 40px;
   margin-top: 40px;
+  margin-bottom: 130px;
 }
 .jumbo-content.right {
   width: 60%;
+  position: relative;
 }
 .jumbo-content.right > img {
-  width: 100%;
+  max-width: 900px;
+  position: absolute;
 }
 /* /jumbotron */
 /* plan-section */
 .plan-section > h2 {
-  padding-top: 200px;
+  padding-top: 300px;
   margin-bottom: 60px;
 }
 .radio-input {
@@ -411,6 +412,32 @@ nav > ul > li > a:hover {
 footer {
   height: 500px;
   width: 100%;
+  padding: 100px 140px;
   background-color: black;
+  color: white;
+  font-size: 14px;
+  flex-wrap: wrap;
+}
+footer > div:first-child {
+  width: 100%;
+  justify-content: space-around;
+}
+.footer-box > h5 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+footer span {
+  display: block;
+  margin-bottom: 8px;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
+.footer-line {
+  width: 10%;
+  height: 5px;
+  border-bottom: 1px solid white;
+  margin-left: 70px;
 }
 /* footer */
