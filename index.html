@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
   <!-- header -->
@@ -57,16 +58,189 @@
     <!-- plan-section -->
     <section class="plan-section container">
       <h2>Trova il piano Dropbox che fa per te</h2>
+      <!-- inputs -->
       <div class="radio-input flex-container align-center">
         <input type="radio" name="fatturazione" id="choice1">
         <label for="choice1">Fatturazione Mensile</label>
         <input type="radio" name="fatturazione" id="choice2">
         <label for="choice2">Fatturazione Annuale</label>
       </div>
+      <!-- /inputs -->
       <div class="row-plan flex-container justify-between">
-        <div class="professional plan"></div>
-        <div class="standard plan"></div>
-        <div class="advanced plan"></div>
+        <!-- first-plan -->
+        <div class="professional plan">
+          <div class="plan-name">Single</div>
+          <div class="plan-container">
+            <div class="plan-type flex-container">
+              <h4>Professional</h4>
+              <span>19.99 &euro;</span>
+              <span>/mese</span>
+            </div>
+            <div class="plan-details">
+              <ul>
+                <li class="flex-container">
+                  <div class="detail-icon flex-container"><i class="fa-solid fa-user-tie"></i></div>
+                  <div class="details-text">1 utente</div>
+                </li>
+                <li class="flex-container">
+                  <div class="detail-icon flex-container"><i class="fa-regular fa-folder"></i></div>
+                  <div class="details-text">3 TB di spazio di archiviazione sicuro</div>
+                </li>
+                <li class="flex-container">
+                  <div class="detail-icon flex-container"><i class="fa-solid fa-pencil"></i></div>
+                  <div class="details-text">Funzioni di produttività premium e condivisione file semplice e sicura</div>
+                </li>
+              </ul>
+            </div>
+            <div class="plan-btn flex-container justify-center">
+              <div class="btn large-btn">Prova gratis per 30 giorni</div>
+            </div>
+            <span>oppure <a href="#">acquista ora</a></span>
+            <div class="plan-line"></div>
+            <h4>Punti salienti del piano</h4>
+            <div class="punti-salienti">
+              <ul>
+                <li class="flex-container">
+                  <div class="detail-point flex-container"><i class="fa-solid fa-user-tie"></i></div>
+                  <div>1 utente</div>
+                </li>
+                <li class="flex-container">
+                  <div class="detail-point flex-container"><i class="fa-regular fa-folder"></i></div>
+                  <div>3 TB di spazio di archiviazione sicuro</div>
+                </li>
+                <li class="flex-container">
+                  <div class="detail-point flex-container"><i class="fa-solid fa-pencil"></i></div>
+                  <div>Funzioni di produttività premium e condivisione file semplice e sicura</div>
+                </li>
+                <li class="flex-container">
+                  <div class="detail-point flex-container"><i class="fa-solid fa-pencil"></i></div>
+                  <div>Funzioni di produttività premium e condivisione file semplice e sicura</div>
+                </li>
+                <li class="flex-container">
+                  <div class="detail-point flex-container"><i class="fa-solid fa-pencil"></i></div>
+                  <div>Funzioni di produttività premium e condivisione file semplice e sicura</div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- /first-plan -->
+        <!-- second-plan -->
+        <div class="standard plan">
+          <div class="plan-name">Single</div>
+          <div class="plan-container">
+            <div class="plan-type flex-container">
+              <h4>Professional</h4>
+              <span>19.99 &euro;</span>
+              <span>/mese</span>
+            </div>
+            <div class="plan-details">
+              <ul>
+                <li class="flex-container">
+                  <div class="detail-icon flex-container"><i class="fa-solid fa-user-tie"></i></div>
+                  <div class="details-text">1 utente</div>
+                </li>
+                <li class="flex-container">
+                  <div class="detail-icon flex-container"><i class="fa-regular fa-folder"></i></div>
+                  <div class="details-text">3 TB di spazio di archiviazione sicuro</div>
+                </li>
+                <li class="flex-container">
+                  <div class="detail-icon flex-container"><i class="fa-solid fa-pencil"></i></div>
+                  <div class="details-text">Funzioni di produttività premium e condivisione file semplice e sicura</div>
+                </li>
+              </ul>
+            </div>
+            <div class="plan-btn flex-container justify-center">
+              <div class="btn large-btn">Prova gratis per 30 giorni</div>
+            </div>
+            <span>oppure <a href="#">acquista ora</a></span>
+            <div class="plan-line"></div>
+            <h4>Punti salienti del piano</h4>
+            <div class="punti-salienti">
+              <ul>
+                <li class="flex-container">
+                  <div class="detail-point flex-container"><i class="fa-solid fa-user-tie"></i></div>
+                  <div>1 utente</div>
+                </li>
+                <li class="flex-container">
+                  <div class="detail-point flex-container"><i class="fa-regular fa-folder"></i></div>
+                  <div>3 TB di spazio di archiviazione sicuro</div>
+                </li>
+                <li class="flex-container">
+                  <div class="detail-point flex-container"><i class="fa-solid fa-pencil"></i></div>
+                  <div>Funzioni di produttività premium e condivisione file semplice e sicura</div>
+                </li>
+                <li class="flex-container">
+                  <div class="detail-point flex-container"><i class="fa-solid fa-pencil"></i></div>
+                  <div>Funzioni di produttività premium e condivisione file semplice e sicura</div>
+                </li>
+                <li class="flex-container">
+                  <div class="detail-point flex-container"><i class="fa-solid fa-pencil"></i></div>
+                  <div>Funzioni di produttività premium e condivisione file semplice e sicura</div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- /second-plan -->
+        <!-- third-plan -->
+        <div class="advanced plan">
+          <div class="plan-name">Single</div>
+          <div class="plan-container">
+            <div class="plan-type flex-container">
+              <h4>Professional</h4>
+              <span>19.99 &euro;</span>
+              <span>/mese</span>
+            </div>
+            <div class="plan-details">
+              <ul>
+                <li class="flex-container">
+                  <div class="detail-icon flex-container"><i class="fa-solid fa-user-tie"></i></div>
+                  <div class="details-text">1 utente</div>
+                </li>
+                <li class="flex-container">
+                  <div class="detail-icon flex-container"><i class="fa-regular fa-folder"></i></div>
+                  <div class="details-text">3 TB di spazio di archiviazione sicuro</div>
+                </li>
+                <li class="flex-container">
+                  <div class="detail-icon flex-container"><i class="fa-solid fa-pencil"></i></div>
+                  <div class="details-text">Funzioni di produttività premium e condivisione file semplice e sicura</div>
+                </li>
+              </ul>
+            </div>
+            <div class="plan-btn flex-container justify-center">
+              <div class="btn large-btn">Prova gratis per 30 giorni</div>
+            </div>
+            <span>oppure <a href="#">acquista ora</a></span>
+            <div class="plan-line"></div>
+            <h4>Punti salienti del piano</h4>
+            <div class="punti-salienti">
+              <ul>
+                <li class="flex-container">
+                  <div class="detail-point flex-container"><i class="fa-solid fa-user-tie"></i></div>
+                  <div>1 utente</div>
+                </li>
+                <li class="flex-container">
+                  <div class="detail-point flex-container"><i class="fa-regular fa-folder"></i></div>
+                  <div>3 TB di spazio di archiviazione sicuro</div>
+                </li>
+                <li class="flex-container">
+                  <div class="detail-point flex-container"><i class="fa-solid fa-pencil"></i></div>
+                  <div>Funzioni di produttività premium e condivisione file semplice e sicura</div>
+                </li>
+                <li class="flex-container">
+                  <div class="detail-point flex-container"><i class="fa-solid fa-pencil"></i></div>
+                  <div>Funzioni di produttività premium e condivisione file semplice e sicura</div>
+                </li>
+                <li class="flex-container">
+                  <div class="detail-point flex-container"><i class="fa-solid fa-pencil"></i></div>
+                  <div>Funzioni di produttività premium e condivisione file semplice e sicura</div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- /third-plan -->
       </div>
       <div class="team-box">
       </div>

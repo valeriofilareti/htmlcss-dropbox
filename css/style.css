@@ -9,7 +9,7 @@ body {
   font-family: 'Lato', sans-serif;
 }
 h2 {
-  font-size: 48px;
+  font-size: 46px;
   font-weight: 800;
 }
 /* utility */
@@ -20,6 +20,9 @@ h2 {
 .container {
   width: 70%;
   margin: 0 auto;
+}
+.plan-container {
+  padding: 30px;
 }
 .flex-container {
   display: flex;
@@ -62,20 +65,20 @@ header > .nav-left > ul > li > a {
 header > .nav-right > ul > li > a {
   margin-left: 30px;
 }
-  nav > ul > li {
-    list-style: none;
-  }
-  nav > ul > li > a {
-    text-decoration: none;
-    color: #000001;
-    font-size: 16px;
-  }
-  nav > ul > li > a:hover {
-    text-decoration: underline;
-  }
-  .img-logo {
-    vertical-align: middle;
-  }
+nav > ul > li {
+  list-style: none;
+}
+nav > ul > li > a {
+  text-decoration: none;
+  color: #000001;
+  font-size: 16px;
+}
+nav > ul > li > a:hover {
+  text-decoration: underline;
+}
+.img-logo {
+  vertical-align: middle;
+}
 /* /header */
 /* jumbotron */
 .jumbotron {
@@ -86,84 +89,133 @@ header > .nav-right > ul > li > a {
 .jumbotron > .jumbo-container > h1 {
   font-size: 68px;
   font-weight: 900;
-  margin-top: 60px;
   margin-bottom: 60px;
   line-height: 97px;
 }
-  .jumbo-content.left {
-    width: 40%;
-    /* background-color: azure; */
-  }
-  .jumbo-content.left > div {
-    flex-direction: column;
-  }
-  .jumbo-content.left > div > p {
-    font-size: 17px;
-    line-height: 25px;
-    margin-bottom: 30px;
-  }
-  .jumbo-content.left > div > a {
-    margin: 20px 0;
-    text-decoration: none;
-  }
-  .jumbo-content.left > div > .arrow {
-    font-size: 40px;
-    margin-top: 40px;
-  }
-  .jumbo-content.right {
-    width: 60%;
-    /* background-color: aqua; */
-  }
-  .jumbo-content.right > img {
-    width: 100%;
-  }
+.jumbo-content.left {
+  width: 40%;
+}
+.jumbo-content.left > div {
+  flex-direction: column;
+}
+.jumbo-content.left > div > p {
+  font-size: 17px;
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+.jumbo-content.left > div > a {
+  margin: 20px 0;
+  text-decoration: none;
+}
+.jumbo-content.left > div > .arrow {
+  font-size: 40px;
+  margin-top: 40px;
+}
+.jumbo-content.right {
+  width: 60%;
+}
+.jumbo-content.right > img {
+  width: 100%;
+}
 /* /jumbotron */
 /* plan-section */
-  .plan-section > h2 {
-    padding-top: 200px;
-    margin-bottom: 40px;
-  }
-  .radio-input {
-    margin-bottom: 30px;
-  }
-  .radio-input > input {
-    margin-right: 5px;
-  }
-  .radio-input > label {
-    margin-right: 10px;
-    font-size: 18px;
-    line-height: 10px;
-  }
-  /* .row-plan {
-    flex-direction: column;
-  } */
-  .plan {
-    width: 30%;
-    height: 800px;
-    border: 1px solid black;
-  }
-  .team-box {
-    width: 100%;
-    height: 200px;
-    border: 1px solid black;
-    margin-top: 50px;
-  }
-/* plan-section */
+.plan-section > h2 {
+  padding-top: 200px;
+  margin-bottom: 60px;
+}
+.radio-input {
+  margin-bottom: 40px;
+}
+.radio-input > input {
+  margin-right: 5px;
+}
+.radio-input > label {
+  margin-right: 10px;
+  font-size: 18px;
+  line-height: 10px;
+}
+.plan {
+  width: 30%;
+  /* height: 800px; */
+  border: 1px solid black;
+}
+.plan-name {
+  font-size: 18px;
+  text-align: center;
+  padding: 10px 0;
+  border-bottom: 1px solid black;
+}
+.plan-type {
+  flex-direction: column;
+}
+.plan-type h4 {
+  padding-bottom: 10px;
+  font-size: 26px;
+  font-weight: 800;
+}
+.plan-type span {
+  padding-top: 9px;
+}
+.plan-type > h4 + span {
+  font-weight: 800;
+}
+.plan-type > span:last-child {
+  color: #778591;
+}
+.plan-details > ul,
+.punti-salienti > ul {
+  margin-top: 40px;
+}
+.plan-details > ul > li,
+.punti-salienti > ul > li {
+  margin-bottom: 30px;
+}
+.detail-icon, .detail-point {
+  justify-content: flex-end;
+  margin-top: 3px;
+  margin-right: 3px;
+}
+.btn.large-btn {
+  width: 100%;
+}
+.plan-line {
+  width: 20%;
+  height: 2px;
+  border-bottom: 1px solid #d0d0d3;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.plan-line + h4 {
+  font-weight: 800;
+  margin-bottom: -15px;
+}
+.plan-btn {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.team-box {
+  width: 100%;
+  height: 200px;
+  border: 1px solid black;
+  margin-top: 50px;
+}
+/* /plan-section */
 /* partner-section */
 .partner-section {
   background-color: cadetblue;
   padding: 110px 0;
 }
-  .partner {
-    width: 50%;
-    height: 375px;
-  }
-  .partner.img {
-    background-color: aquamarine;
-  }
-  .partner.text {
-    background-color: aqua;
-  }
+.partner {
+  width: 50%;
+  height: 375px;
+}
+.partner.img {
+  background-color: aquamarine;
+}
+.partner.text {
+  background-color: aqua;
+}
 /* /partner-section */
 /* dropbox-business-section */
 .dropbox-business > h2 {
@@ -172,22 +224,22 @@ header > .nav-right > ul > li > a {
 .card-container {
   flex-wrap: wrap;
 }
-  .card {
-    width: 30%;
-    min-width: 300px;
-    height: 450px;
-    background-color: aqua;
-    border: 1px solid black;
-    margin-bottom: 20px;
-  }
-  .dropbox-business .business {
-    width: 55%;
-    margin-bottom: 50px;
-  }
-  .dropbox-business > div > h2 {
-    margin-top: 70px;
-    margin-bottom: 20px;
-  }
+.card {
+  width: 30%;
+  min-width: 300px;
+  height: 450px;
+  background-color: aqua;
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+.dropbox-business .business {
+  width: 55%;
+  margin-bottom: 50px;
+}
+.dropbox-business > div > h2 {
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
 /* /dropbox-business-section */
 /* clienti */
 .client {
@@ -222,6 +274,7 @@ header > .nav-right > ul > li > a {
 .trial-btn {
   background-color: azure;
   justify-content: center;
+  text-align: center;
 }
 .trial-text, .trial-btn {
   width: 40%;
