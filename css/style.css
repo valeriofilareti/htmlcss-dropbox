@@ -298,50 +298,95 @@ nav > ul > li > a:hover {
 }
 /* /dropbox-business-section */
 /* clienti */
-.client {
-  height: 460px;
+.partners-dbg {
   width: 100%;
-  background-color: aliceblue;
-}
-.square-block {
-  /* width: 20%; */
-  background-color: antiquewhite;
+  /* max-height: 300px; */
   flex-wrap: wrap;
+  /* margin-bottom: 300px; */
 }
-.client-text {
-  /* width: 60%; */
-  margin: 0 auto;
-  overflow: auto;
+.cont {
+  width: 30vw;
+  display:flex;
+  flex-wrap:wrap;
 }
 .square {
-  border: 1px solid black;
-  width: 230px;
-  height: 230px;
+  width:15vw;
+  height:15vw;
 }
+#active {
+  border: 8px solid #d0e9cc ;
+}
+.square.green {
+  background-color: #a2d39b;
+}
+.square.brown {
+  background-color: #61082a;
+}
+.square.azure {
+  background-color: #3193ce;
+}
+.square.red {
+  background-color: #f41c1e;
+}
+.square.crims {
+  background-color: #d5001f;
+}
+.square.gray {
+  background-color: #b4d0e7;
+}
+.square.blue {
+  background-color: #0d2481;
+}
+.square.yellow {
+  background-color: #fbd831;
+}
+.square > img {
+  width: 70%;
+  line-height: 100px;
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(249deg) brightness(107%) contrast(109%);
+}
+.txt {
+  width: 40vw;
+  height: 30vw;
+  overflow: auto;
+  padding: 50px;
+  background-color: #f5f5f5;
+}
+.txt > div > img {
+  width: 35%;
+  /* padding: 50px; */
+}
+.txt > div:nth-child(2) {
+  width: 15%;
+  height: 30px;
+  border-bottom: 1px solid black;
+  margin-bottom: 40px;
+}
+/* free-trail */
 .free-trial {
-  /* height: 500px; */
   width: 100%;
-  background-color: beige;
+  background-color: #b4d0e7;
   justify-content: center;
-}
-.trial-text {
-  background-color: bisque;
 }
 .trial-btn {
-  background-color: azure;
+  /* background-color: azure; */
   justify-content: center;
   text-align: center;
+}
+.trial-text {
+  color: #61062a;
 }
 .trial-text, .trial-btn {
   width: 40%;
   padding: 100px 0;
-
 }
 .btn-dbg {
-  width: 230px;
   height: 50px;
-  border: 1px solid black;
-}
+  padding: 15px 50px;
+  border: 1px solid white;
+  background-color: white;
+} 
+/* free-trail */
 /* /clienti */
 /* questions */
 .questions h3 {
@@ -355,6 +400,8 @@ nav > ul > li > a:hover {
 .question {
   padding: 30px 0;
   border-bottom: 1px solid black;
+  font-weight: 600;
+  padding-right: 20px;
 }
 .questions > div {
   margin-bottom: 100px;
