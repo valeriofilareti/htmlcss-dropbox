@@ -41,6 +41,9 @@ h2 {
   background-color: #2862ff;
   color: white;
 }
+.btn:hover {
+  opacity: .8;
+}
 /* utility */
 /* general */
 /* header */
@@ -83,6 +86,18 @@ nav > ul > li > a:hover {
 }
 .img-logo {
   vertical-align: middle;
+}
+.curtain {
+  width: 300px;
+  height: 200px;
+  background-color: #0d2481;
+  position: absolute;
+  right: 270px;
+  top: 80px;
+  display: none;
+}
+.support:hover div.curtain {
+  display: block;
 }
 /* /header */
 /* jumbotron */
