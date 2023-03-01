@@ -104,8 +104,8 @@ nav > ul > li > a:hover {
   flex-direction: column;
 }
 .jumbo-content.left > div > p {
-  font-size: 17px;
-  line-height: 25px;
+  font-size: 22px;
+  line-height: 35px;
   margin-bottom: 30px;
 }
 .jumbo-content.left > div > a {
@@ -113,9 +113,9 @@ nav > ul > li > a:hover {
   text-decoration: none;
 }
 .jumbo-content.left > div > .arrow {
-  font-size: 40px;
+  font-size: 50px;
   margin-top: 40px;
-  margin-bottom: 130px;
+  margin-bottom: 80px;
 }
 .jumbo-content.right {
   width: 60%;
@@ -128,7 +128,7 @@ nav > ul > li > a:hover {
 /* /jumbotron */
 /* plan-section */
 .plan-section > h2 {
-  padding-top: 300px;
+  padding-top: 250px;
   margin-bottom: 60px;
 }
 .radio-input {
@@ -145,13 +145,16 @@ nav > ul > li > a:hover {
 .plan {
   width: 30%;
   /* height: 800px; */
-  border: 1px solid black;
+  border: 1px solid #dedee0;
+}
+.plan a {
+  color: #2862ff;
 }
 .plan-name, .team-name {
   font-size: 18px;
   text-align: center;
   padding: 10px 0;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #dedee0;
 }
 .plan-type {
   flex-direction: column;
@@ -183,6 +186,9 @@ nav > ul > li > a:hover {
   margin-top: 3px;
   margin-right: 3px;
 }
+.detail-point > i {
+  color: #2862ff;
+}
 .btn.large-btn {
   width: 100%;
 }
@@ -205,7 +211,7 @@ nav > ul > li > a:hover {
 /* team */
 .team-box {
   width: 100%;
-  border: 1px solid black;
+  border: 1px solid #d0d0d3;
   margin-top: 50px;
 }
 .team-text {
