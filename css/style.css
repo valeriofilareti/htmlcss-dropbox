@@ -303,6 +303,9 @@ nav > ul > li > a:hover {
   margin-top: 70px;
   margin-bottom: 20px;
 }
+.business > a {
+  color: #2862ff;
+}
 /* /dropbox-business-section */
 /* clienti */
 .partners-dbg {
