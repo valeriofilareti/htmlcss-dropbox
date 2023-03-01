@@ -46,15 +46,12 @@ h2 {
 /* header */
 header {
   height: 80px;
-  /* padding: 20px 20px; */
+  padding: 0 20px;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   background-color: #ffffff;
-}
-nav {
-  /* width: 50%; */
 }
 .nav-right {
   justify-content: flex-end;
@@ -65,18 +62,16 @@ header > .nav-left > ul > li > a {
 header > .nav-right > ul > li > a {
   margin-left: 30px;
 }
-
-nav, nav > ul, nav > ul > li, nav > ul > li > a {
+nav, nav > ul,
+nav > ul > li,
+nav > ul > li > a {
   height: 100%;
 }
 
 
-nav > ul {
-  height: 100%;
-}
+
 nav > ul > li {
   list-style: none;
-  height: 100%;
 }
 nav > ul > li > a {
   display: inline-block;
@@ -86,8 +81,7 @@ nav > ul > li > a {
   height: 100%;
 }
 nav > ul > li > a:hover {
-  text-decoration: underline;
-  border-bottom: 2px solid black;
+  border-bottom: 2px inset black;
 }
 .img-logo {
   vertical-align: middle;
@@ -240,18 +234,31 @@ nav > ul > li > a:hover {
 /* /plan-section */
 /* partner-section */
 .partner-section {
-  background-color: cadetblue;
   padding: 110px 0;
 }
-.partner {
+.img-partner {
   width: 50%;
-  height: 375px;
 }
-.partner.img {
-  background-color: aquamarine;
+.img-partner > img {
+  width: 100%;
 }
-.partner.text {
-  background-color: aqua;
+.text-partner {
+  width: 50%;
+  padding: 70px 0 0 50px;
+}
+.text-partner > h4 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+.text-partner > p {
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 50px;
+}
+.text-partner > button {
+  font-size: 24px;
+  padding: 10px;
+  background: none;
 }
 /* /partner-section */
 /* dropbox-business-section */
@@ -264,10 +271,22 @@ nav > ul > li > a:hover {
 .card {
   width: 30%;
   min-width: 300px;
-  height: 450px;
-  background-color: aqua;
-  border: 1px solid black;
-  margin-bottom: 20px;
+  /* height: 450px; */
+  /* background-color: aqua;
+  border: 1px solid black; */
+  margin-bottom: 100px;
+}
+.card > img {
+  width: 100%;
+}
+.card > span {
+  font-size: 25px;
+  font-weight: 600;
+}
+.card > p {
+  font-size: 17px;
+  margin-top: 20px;
+  line-height: 25px;
 }
 .dropbox-business .business {
   width: 55%;
