@@ -145,6 +145,10 @@ nav > ul > li > a:hover {
   margin-top: 20px;
   margin-bottom: 60px;
 }
+.arrow > a:hover {
+  font-size: 100px;
+  transition: 1s;
+}
 .jumbo-content.left > div > .arrow > a {
   color: #000001;
 }
@@ -266,6 +270,9 @@ nav > ul > li > a:hover {
 .team-btn {
   width: 30%;
   text-align: center;
+}
+.team-btn > a {
+  text-decoration: none;
 }
     /* /team */
 /* /plan-section */
