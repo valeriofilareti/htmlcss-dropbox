@@ -12,7 +12,7 @@ h2 {
   font-size: 46px;
   font-weight: 800;
 }
-/* utility */
+    /* utility */
 .jumbo-container {
   width: 80%;
   margin: 0 auto;
@@ -44,7 +44,7 @@ h2 {
 .btn:hover {
   opacity: .8;
 }
-/* utility */
+    /* utility */
 /* general */
 /* header */
 header {
@@ -116,8 +116,8 @@ nav > ul > li > a:hover {
 /* jumbotron */
 .jumbotron {
   padding-top: 170px;
-  /* height: 900px; */
   background-color: #b4d0e7;
+  margin-bottom: 150px;
 }
 .jumbotron > .jumbo-container > h1 {
   font-size: 90px;
@@ -145,6 +145,9 @@ nav > ul > li > a:hover {
   margin-top: 20px;
   margin-bottom: 60px;
 }
+.jumbo-content.left > div > .arrow > a {
+  color: #000001;
+}
 .jumbo-content.right {
   width: 60%;
   position: relative;
@@ -156,7 +159,7 @@ nav > ul > li > a:hover {
 /* /jumbotron */
 /* plan-section */
 .plan-section > h2 {
-  padding-top: 250px;
+  padding-top: 80px;
   margin-bottom: 60px;
 }
 .radio-input {
@@ -172,7 +175,6 @@ nav > ul > li > a:hover {
 }
 .plan {
   width: 30%;
-  /* height: 800px; */
   border: 1px solid #dedee0;
 }
 .plan a {
@@ -236,7 +238,7 @@ nav > ul > li > a:hover {
   margin-bottom: 20px;
   text-align: center;
 }
-/* team */
+    /* team */
 .team-box {
   width: 100%;
   border: 1px solid #d0d0d3;
@@ -265,7 +267,7 @@ nav > ul > li > a:hover {
   width: 30%;
   text-align: center;
 }
-/* /team */
+    /* /team */
 /* /plan-section */
 /* partner-section */
 .partner-section {
@@ -306,9 +308,6 @@ nav > ul > li > a:hover {
 .card {
   width: 30%;
   min-width: 300px;
-  /* height: 450px; */
-  /* background-color: aqua;
-  border: 1px solid black; */
   margin-bottom: 100px;
 }
 .card > img {
@@ -338,9 +337,7 @@ nav > ul > li > a:hover {
 /* clienti */
 .partners-dbg {
   width: 100%;
-  /* max-height: 300px; */
   flex-wrap: wrap;
-  /* margin-bottom: 300px; */
 }
 .cont {
   width: 30vw;
@@ -392,7 +389,6 @@ nav > ul > li > a:hover {
 }
 .txt > div > img {
   width: 35%;
-  /* padding: 50px; */
 }
 .txt > div:nth-child(2) {
   width: 15%;
@@ -400,14 +396,14 @@ nav > ul > li > a:hover {
   border-bottom: 1px solid black;
   margin-bottom: 40px;
 }
-/* free-trail */
+    /* free-trail */
 .free-trial {
   width: 100%;
   background-color: #b4d0e7;
   justify-content: center;
+  padding: 20px 0;
 }
 .trial-btn {
-  /* background-color: azure; */
   justify-content: center;
   text-align: center;
 }
@@ -424,7 +420,7 @@ nav > ul > li > a:hover {
   border: 1px solid white;
   background-color: white;
 } 
-/* free-trail */
+    /* free-trail */
 /* /clienti */
 /* questions */
 .questions h3 {
@@ -470,6 +466,9 @@ footer > div:first-child {
 .footer-box > h5 {
   font-size: 24px;
   margin-bottom: 20px;
+}
+.footer-box > a:hover {
+  text-decoration: underline;
 }
 footer span {
   display: block;
