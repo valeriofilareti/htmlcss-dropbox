@@ -56,6 +56,7 @@ header {
   z-index: 999;
   width: 100%;
   background-color: #ffffff;
+  border-bottom: 1px solid #d0d0d3;;
 }
 .nav-right {
   justify-content: flex-end;
@@ -88,17 +89,29 @@ nav > ul > li > a:hover {
   vertical-align: middle;
 }
 .curtain {
-  width: 300px;
-  height: 200px;
-  background-color: #0d2481;
+  width: 250px;
   position: absolute;
-  right: 270px;
+  right: 250px;
   top: 80px;
   display: none;
+  border: 1px solid #d0d0d3;
+  background-color: white;
+}
+.curtain > ul > li {
+  padding: 15px 5px;
+  margin: 10px 0;
+  list-style: none;
+}
+.curtain > ul > li:hover {
+  background-color: #d0d0d3;
+}
+.curtain > ul > li > a {
+  color: #000001;
+  text-decoration: none;
 }
 .support:hover div.curtain {
   display: block;
-}
+} 
 /* /header */
 /* jumbotron */
 .jumbotron {
@@ -119,8 +132,8 @@ nav > ul > li > a:hover {
   flex-direction: column;
 }
 .jumbo-content.left > div > p {
-  font-size: 22px;
-  line-height: 35px;
+  font-size: 16px;
+  line-height: 28px;
   margin-bottom: 30px;
 }
 .jumbo-content.left > div > a {
@@ -130,14 +143,14 @@ nav > ul > li > a:hover {
 .jumbo-content.left > div > .arrow {
   font-size: 50px;
   margin-top: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 60px;
 }
 .jumbo-content.right {
   width: 60%;
   position: relative;
 }
 .jumbo-content.right > img {
-  max-width: 825px;
+  max-width: 800px;
   position: absolute;
 }
 /* /jumbotron */
