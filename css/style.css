@@ -288,7 +288,7 @@ nav > ul > li > a:hover {
 }
 .text-partner {
   width: 50%;
-  padding: 70px 0 0 50px;
+  padding: 40px 0 0 50px;
 }
 .text-partner > h4 {
   font-size: 32px;
@@ -452,8 +452,11 @@ nav > ul > li > a:hover {
   display: none;
   font-weight: 400;
 }
-.question:active .parag {
+.question:hover .parag {
   display: block;
+}
+.question:hover .hvr {
+  transform: rotate(180deg);
 }
 /* /questions */
 /* footer */
