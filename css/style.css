@@ -129,15 +129,15 @@ nav > ul > li > a:hover {
 }
 .jumbo-content.left > div > .arrow {
   font-size: 50px;
-  margin-top: 40px;
-  margin-bottom: 80px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 .jumbo-content.right {
   width: 60%;
   position: relative;
 }
 .jumbo-content.right > img {
-  max-width: 900px;
+  max-width: 825px;
   position: absolute;
 }
 /* /jumbotron */
@@ -436,7 +436,7 @@ nav > ul > li > a:hover {
   display: none;
   font-weight: 400;
 }
-.question:hover .parag {
+.question:active .parag {
   display: block;
 }
 /* /questions */
@@ -449,7 +449,6 @@ footer {
   color: white;
   font-size: 14px;
   flex-wrap: wrap;
-  margin-bottom: 50px;
 }
 footer > div:first-child {
   width: 100%;
@@ -471,6 +470,6 @@ footer a {
   width: 10%;
   height: 5px;
   border-bottom: 1px solid white;
-  margin-left: 70px;
+  margin-left: 5%;
 }
 /* footer */
